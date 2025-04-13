@@ -30,5 +30,5 @@ vector2 = [[1,2],[3,4]]
 vector3 = [1,2]
 vector4=[3,4]
 ans = sol.vector_addition(vector1,vector2)
-ans1 = sol.vector_addition_scratch1(vector3,vector4)
+ans1 = sol.vector_addition_scratch1(vector1,vector2)
 print(ans1)
