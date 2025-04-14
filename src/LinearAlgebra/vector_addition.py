@@ -21,6 +21,8 @@ class Solution :
         
         result = [x+y for x,y in zip(vector1,vector2)]
         return result
+    
+    
 
 
 
