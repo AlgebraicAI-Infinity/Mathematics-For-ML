@@ -1,5 +1,10 @@
 import numpy as np
-""" Find determinant of matrix """
+
+# RESOURCE: https://en.wikipedia.org/wiki/Determinant
+
+"""Determinant of matrix is used to to determine if a matrix is invertible, solve systems of linear equations,
+    and find the inverse of a matrix. It also provides information about the geometric properties of linear transformations,
+    such as area scaling."""
 
 class Solution:
     def determinant_of_matrix(self,matrix:np.ndarray):

@@ -9,7 +9,7 @@ class Solution:
         return innerproduct
     
     """ check for orthogonal condition"""
-    def orthogonal(self,u:np.ndarray,v:np.ndarray)->bool:
+    def orthogonal(self,u:np.ndarray,v:np.ndarray)->bool:  
         u_mat = np.array(u)
         v_mat=np.array(v)
         u_transpose = u_mat.T

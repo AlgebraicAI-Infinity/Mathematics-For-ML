@@ -1,8 +1,9 @@
-
 import numpy as np
+# RESOURCE: https://en.wikipedia.org/wiki/Dot_product
+
+
 
 class Solution:
-   
     def calculate_dot_product(self,vector1,vector2):
         if  len(vector1) != len(vector2):
             raise ValueError('The dimensions of vetors are not same !')
