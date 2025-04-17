@@ -24,12 +24,10 @@ class Solution:
         return dot_product
         
 
-
-
-    
-sol=Solution()
-vector1 = [1,2,3]
-vector2 = [4,5,6]
-ans=sol.calculate_dot_product(vector1,vector2)
-ans1 = sol.calculate_dot_product_scratch(vector1,vector2)
-print(ans1)
+if __name__=="__main__":
+    sol=Solution()
+    vector1 = [1,2,3]
+    vector2 = [4,5,6]
+    ans=sol.calculate_dot_product(vector1,vector2)  
+    ans1 = sol.calculate_dot_product_scratch(vector1,vector2)
+    print(ans1)

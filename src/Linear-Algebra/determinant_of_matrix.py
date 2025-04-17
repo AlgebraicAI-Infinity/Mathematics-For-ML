@@ -27,9 +27,9 @@ class Solution:
         return det
 
 
-
-sol=Solution()
-matrix = [[1,2],[3,4]]
-ans = sol.determinant_of_matrix(matrix)
-ans1= sol.determinant_of_matrix_scratch(matrix)
-print(ans1)
+if __name__=="__main__":
+    sol=Solution()
+    matrix = [[1,2],[3,4]]
+    ans = sol.determinant_of_matrix(matrix)
+    ans1= sol.determinant_of_matrix_scratch(matrix)
+    print(ans1)

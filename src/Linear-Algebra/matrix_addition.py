@@ -27,12 +27,14 @@ class Solution:
         sum = [a+b for a,b in zip(vector1,vector2)]
         return sum
     
-sol = Solution()
-matrix1=[[1,2],[3,4]]
-matrix2 = [[5,6],[7,8]]
-matrix3 = [1,2]
-matrix4 = [3,4]
-ans = sol.matrix_addition(matrix1,matrix2)
-ans1 = sol.matrix_addition_scratch_2D(matrix1,matrix2)
-ans2 = sol.matrix_addition_scratch_1D(matrix3,matrix4)
-print(ans2)
+
+if __name__=="__main__":
+    sol = Solution()
+    matrix1=[[1,2],[3,4]]
+    matrix2 = [[5,6],[7,8]]
+    matrix3 = [1,2]
+    matrix4 = [3,4]
+    ans = sol.matrix_addition(matrix1,matrix2)
+    ans1 = sol.matrix_addition_scratch_2D(matrix1,matrix2)
+    ans2 = sol.matrix_addition_scratch_1D(matrix3,matrix4)
+    print(ans2)

@@ -11,8 +11,9 @@ class Solution:
         return result
     
 
-sol = Solution()
-vector1 = [1,0,0]
-vector2 = [0,1,0]
-ans = sol.cross_product_of_vector(vector1,vector2)
-print(ans)
+if __name__=="__main__":
+    sol = Solution()
+    vector1 = [1,0,0]
+    vector2 = [0,1,0]
+    ans = sol.cross_product_of_vector(vector1,vector2)
+    print(ans)

@@ -11,8 +11,10 @@ class Solution:
         return innerproduct ==0
     
 
-sol=Solution()
-u=[1,2]
-v=[3,4]
-ans=sol.orthogonal(u,v)
-print(ans)
+
+if __name__=="__main__":
+    sol=Solution()
+    u=[1,2]
+    v=[3,4]
+    ans=sol.orthogonal(u,v)
+    print(ans)

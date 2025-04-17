@@ -8,8 +8,8 @@ class Solution:
         return det
     
     
-
-sol=Solution()
-matrix = [[1,2,3],[0,4,5],[0,0,6]]
-ans=sol.determinant_of_triangular_matrix(matrix)
-print(ans)
+if __name__=="__main__":
+    sol=Solution()
+    matrix = [[1,2,3],[0,4,5],[0,0,6]]
+    ans=sol.determinant_of_triangular_matrix(matrix)
+    print(ans)

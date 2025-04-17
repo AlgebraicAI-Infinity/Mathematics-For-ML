@@ -8,7 +8,8 @@ class Solution:
         return inverse
     
 
-sol = Solution()
-matrix = [[3,8],[4,6]]
-ans=sol.inverse_of_matrix(matrix)
-print(ans)
+if __name__=="__main__":
+    sol = Solution()
+    matrix = [[3,8],[4,6]]
+    ans=sol.inverse_of_matrix(matrix)
+    print(ans)

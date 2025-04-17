@@ -38,13 +38,14 @@ class Solution:
         return outerproduct
 
 
-
-sol=  Solution()
-u=[1,2]
-v=[3,4]
-ans=sol.inner_product(u,v)
-ans1 = sol.orthogonal(u,v)
-ans2=sol.norm(u)
-ans3 = sol.normalized(u)
-ans4 = sol.outer_product(u,v)
-print(ans4)
+if __name__=="__main__":
+    
+    sol=  Solution()
+    u=[1,2]
+    v=[3,4]
+    ans=sol.inner_product(u,v)
+    ans1 = sol.orthogonal(u,v)
+    ans2=sol.norm(u)
+    ans3 = sol.normalized(u)
+    ans4 = sol.outer_product(u,v)
+    print(ans4)
